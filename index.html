@@ -1,14 +1,22 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <img id="img" src="3-wall-tub-1.jpeg"></img>
-    <div id="app">Loading...</div>
-    <script type="module" src="/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <img class='hero' src="./hero.png" />
+  <h1>TUB vs SHOWER</h1>
+  <div class="uploader">
+    <input type="file" id="imageUpload" accept="image/*">
+    <img id="displayImage" src="" alt="Selected Image">
+    <p class="imgInfo" id="imageInfo">No image selected</p>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>
